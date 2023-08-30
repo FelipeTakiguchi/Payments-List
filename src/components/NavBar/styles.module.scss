@@ -1,0 +1,37 @@
+.bg__body__tertiary{
+    background-color: rgb(60, 65, 65) !important;
+    margin-bottom: 20px;
+}
+
+.me__auto{
+    gap: 30px;
+}
+
+.link{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.container{
+    margin: 0px 2vmin !important;
+}
+
+.tittle:hover {
+    color: white;
+}
+
+.icon{
+    padding: 4px;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+}
+
+.moon__icon{
+    background-color: var(--light-color);
+    display: none;
+}
+
+.moon__icon:hover{
+    background-color: var(--dark-color);
+}

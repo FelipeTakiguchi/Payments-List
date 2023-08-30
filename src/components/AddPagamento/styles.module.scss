@@ -1,0 +1,41 @@
+form{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 14px;
+    border-style: solid;
+}
+
+form * {
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    text-indent: 6px;
+}
+
+form *:focus{
+    background-color: #e8e6e0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.btn__pagamento{
+    background-color: rgba(black, 0);
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: rgba($color: black, $alpha: .3) 2px 3px 1px;
+}
+
+.btn__pagamento:hover{
+    background-color: rgba(#e8e6e0, 1);
+}

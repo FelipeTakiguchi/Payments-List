@@ -1,0 +1,57 @@
+.card{
+    background-color: rgb(58, 56, 56);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    color: rgb(193, 203, 211);
+}
+
+.card-description{
+    font-size: 12px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.card-button{
+    width: 40%;
+    background-color: rgb(31, 147, 182);
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+}
+
+.card-button:hover{
+    background-color: rgb(58, 56, 56);
+}
+
+.card img{
+    width: 90% !important;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: rgb(53, 48, 48);
+    padding: 30px;
+    width: 80%;
+    border-radius: 13px;
+}
+
+.content-products{
+    display: flex;
+    justify-content: center;
+}
