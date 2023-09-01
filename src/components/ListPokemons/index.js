@@ -12,16 +12,19 @@ export default function ListPokemons() {
 
     async function handleGet() {
         const res = await axios.get(`https://pokeapi.co/api/v2/pokemon`);
-
-        setPokemons(res.results);
+        console.log(res);
+        setPokemons(res.data.results);
     };
 
     return (
         <>
             {
                 pokemons.map(pokemon => {
+                    console.log(pokemon)
                     return (
-                        <a>{pokemon}</a>
+                        <li>
+                            <a>{pokemon.name}</a>
+                        </li>
                     )
                 })
             }
